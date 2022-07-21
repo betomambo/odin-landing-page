@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 8%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    margin: auto 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
