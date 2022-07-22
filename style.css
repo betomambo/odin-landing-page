@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    color: #f9faf8;
 }
 
 .header {
@@ -75,13 +76,12 @@ ul {
 .button {
     color: white;
     width: 90px;
+    height: 27px;
     border-radius: 5px;
     border: none;
     padding: 6px;
-}
-
-.button.first {
     background-color: #3882F6;
+    
 }
 
 a {
@@ -129,6 +129,9 @@ img {
 
 /* first content */
 
+
+/*second content*/
+
 .content.second {
     display: flex;
     flex-direction: column;
@@ -150,3 +153,36 @@ img {
     font-weight: bold;
     color: #1f2937;
 }
+
+/*second content*/
+
+
+/*last content*/
+
+.content.last {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 70px auto;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.bold-line {
+    font-weight: bold;
+}
+
+.small-box {
+    margin: 40px 100px;
+}
+
+.button.last {
+    border: 1px solid white;
+    align-self: center;
+    margin: 0 100px;
+    font-weight: bold;
+}
+
+/*last content*/
+
+
