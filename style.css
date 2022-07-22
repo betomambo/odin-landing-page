@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     min-height: 100vh;
+    font-family: Roboto;
+
 }
 
 .header {
@@ -12,25 +15,63 @@ body {
     flex-direction: column;
 }
 
-.top {
+.header.top {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.header.left {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.header.right {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.header-low {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    gap: 10px;
 }
 
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    margin-left: 8%;
+    margin-left: 103px;
 }
+
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
     font-size: 18px;
-    margin: auto 150px;
+    margin-right: 103px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.button {
+color: white;
+width: 90px;
+border-radius: 5px;
+border: none;
+padding: 6px;
+}
+
+.button.first {
+    background-color: #3882F6;
 }
 
 a {
