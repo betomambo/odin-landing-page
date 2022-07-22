@@ -132,14 +132,21 @@ img {
 .content.second {
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
-    align-items: center;
     flex: 1;
     background-color: #E5E7EB;
+    padding: 105px 450px;
+
 }
 
 .quote {
     font-size: 36px;
     font-weight: light;
+    color: #1f2937;
+    align-self: center;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: bold;
     color: #1f2937;
 }
