@@ -25,6 +25,7 @@ body {
     padding: 0;
     flex-direction: column;
     background: none;
+    flex-wrap: wrap;
 }
 
 .header-left {
@@ -120,6 +121,7 @@ a {
     display: flex;
     margin: 35px 0 90px 0;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .image {
@@ -181,6 +183,7 @@ a {
     border-radius: 5px;
     background-color: #E5E7EB;
     color: #282829;
+    flex-wrap: wrap;
 }
 
 .bold-line {
