@@ -7,14 +7,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     color: #f9faf8;
+    background-image:url("images/pedro-araujo-PDjYClxmnyk-unsplash.jpg")
 }
 
 .header {
-    background-color: #1f2937;
     color: white;
     display: flex;
     padding: 10px 200px 100px 200px;
     column-gap: 100px;
+    background-color: none;
+    
 }
 
 .left {
@@ -22,6 +24,7 @@ body {
     flex-wrap: wrap;
     padding: 0;
     flex-direction: column;
+    background: none;
 }
 
 .header-left {
@@ -35,6 +38,7 @@ body {
     flex-wrap: wrap;
     padding: 0;
     flex-direction: column;
+    background: none;
 }
 
 .logo {
@@ -60,11 +64,12 @@ ul {
 }
 
 .image-head {
-    background-color: gray;
     justify-content: center;
     align-items: center;
     display: flex;
     flex: 1;
+    max-width: 100%;
+    height: 100%;
 }
 
 .title {
@@ -80,29 +85,28 @@ ul {
     border-radius: 5px;
     border: none;
     padding: 6px;
-    background-color: #3882F6;
-    
+    background-color: #7f848e;    
+}
+
+.button:hover {
+    background-color: #595b5e;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-weight: bold;
 }
 
 /* Hero text */
 
 /* first content */
 
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-}
-
 .content.first {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .content-top {
@@ -115,7 +119,7 @@ img {
 .content-bottom {
     display: flex;
     margin: 35px 0 90px 0;
-    gap: 10px;
+    gap: 30px;
 }
 
 .image {
@@ -126,6 +130,14 @@ img {
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+    font-weight: bold;
+}
+
+.images {
+   width: 180px;
+   height: 180px;
+   border-radius: 5px;
+   margin-bottom: 20px;
 }
 
 /* first content */
@@ -137,22 +149,23 @@ img {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #E5E7EB;
+    background-color: none;
     padding: 105px 450px;
+
 
 }
 
 .quote {
     font-size: 36px;
     font-weight: light;
-    color: #1f2937;
+    color: #E5E7EB;
     align-self: center;
 }
 
 .signature {
     align-self: flex-end;
     font-weight: bold;
-    color: #1f2937;
+    color: #E5E7EB;
 }
 
 /*second content*/
@@ -166,7 +179,8 @@ img {
     gap: 50px;
     margin: 70px auto;
     border-radius: 5px;
-    background-color: #3882F6;
+    background-color: #E5E7EB;
+    color: #282829;
 }
 
 .bold-line {
